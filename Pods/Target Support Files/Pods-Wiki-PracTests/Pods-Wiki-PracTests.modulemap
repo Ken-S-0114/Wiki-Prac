@@ -1,0 +1,6 @@
+framework module Pods_Wiki_PracTests {
+  umbrella header "Pods-Wiki-PracTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
