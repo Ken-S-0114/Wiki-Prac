@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -19,6 +19,10 @@
 		B2F0148622ABEAEB00FAD900 /* WikipediaSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F0148522ABEAEB00FAD900 /* WikipediaSearchViewModel.swift */; };
 		B2F0148822ABEB7500FAD900 /* WikipediaSearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F0148722ABEB7500FAD900 /* WikipediaSearchResponse.swift */; };
 		B2F0148A22ABF0A100FAD900 /* WikipediaAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F0148922ABF0A100FAD900 /* WikipediaAPI.swift */; };
+		B2F0148C22ACE7A400FAD900 /* ObservableType+ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F0148B22ACE7A400FAD900 /* ObservableType+ex.swift */; };
+		B2F0148E22ACEF1E00FAD900 /* WikipediaSearchResultDecodableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F0148D22ACEF1E00FAD900 /* WikipediaSearchResultDecodableTests.swift */; };
+		B2F0149022ACF24D00FAD900 /* MockWikipediaAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F0148F22ACF24D00FAD900 /* MockWikipediaAPI.swift */; };
+		B2F0149222ACF35300FAD900 /* ViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F0149122ACF35300FAD900 /* ViewModelTests.swift */; };
 		FA1B4E30F38881C5DDA0A750 /* Pods_Wiki_Prac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C10E8F6EB9758D54D0C0E7CB /* Pods_Wiki_Prac.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,9 +44,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		11ACB49A6CD2EF18EB1B4962 /* Pods-Wiki-Prac-Wiki-PracUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wiki-Prac-Wiki-PracUITests.release.xcconfig"; path = "Target Support Files/Pods-Wiki-Prac-Wiki-PracUITests/Pods-Wiki-Prac-Wiki-PracUITests.release.xcconfig"; sourceTree = "<group>"; };
 		3CEA7BBFFA710FA1249DE2E0 /* Pods-Wiki-PracUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wiki-PracUITests.release.xcconfig"; path = "Target Support Files/Pods-Wiki-PracUITests/Pods-Wiki-PracUITests.release.xcconfig"; sourceTree = "<group>"; };
 		414DAAF37B01193B0E3DD013 /* Pods_Wiki_PracTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wiki_PracTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73D501FAF723905EB18E0102 /* Pods-Wiki-Prac.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wiki-Prac.release.xcconfig"; path = "Target Support Files/Pods-Wiki-Prac/Pods-Wiki-Prac.release.xcconfig"; sourceTree = "<group>"; };
+		92D238A84B1481B73F9CF723 /* Pods-Wiki-Prac-Wiki-PracTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wiki-Prac-Wiki-PracTests.release.xcconfig"; path = "Target Support Files/Pods-Wiki-Prac-Wiki-PracTests/Pods-Wiki-Prac-Wiki-PracTests.release.xcconfig"; sourceTree = "<group>"; };
 		A6F1FC55FF81AC79AA745186 /* Pods-Wiki-PracUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wiki-PracUITests.debug.xcconfig"; path = "Target Support Files/Pods-Wiki-PracUITests/Pods-Wiki-PracUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B294B10222ABE70C002EDF4F /* Wiki-Prac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wiki-Prac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B294B10522ABE70C002EDF4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -60,8 +66,14 @@
 		B2F0148522ABEAEB00FAD900 /* WikipediaSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikipediaSearchViewModel.swift; sourceTree = "<group>"; };
 		B2F0148722ABEB7500FAD900 /* WikipediaSearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikipediaSearchResponse.swift; sourceTree = "<group>"; };
 		B2F0148922ABF0A100FAD900 /* WikipediaAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikipediaAPI.swift; sourceTree = "<group>"; };
+		B2F0148B22ACE7A400FAD900 /* ObservableType+ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ObservableType+ex.swift"; sourceTree = "<group>"; };
+		B2F0148D22ACEF1E00FAD900 /* WikipediaSearchResultDecodableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikipediaSearchResultDecodableTests.swift; sourceTree = "<group>"; };
+		B2F0148F22ACF24D00FAD900 /* MockWikipediaAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockWikipediaAPI.swift; sourceTree = "<group>"; };
+		B2F0149122ACF35300FAD900 /* ViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelTests.swift; sourceTree = "<group>"; };
+		B92C010EC838650C98E4771F /* Pods-Wiki-Prac-Wiki-PracUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wiki-Prac-Wiki-PracUITests.debug.xcconfig"; path = "Target Support Files/Pods-Wiki-Prac-Wiki-PracUITests/Pods-Wiki-Prac-Wiki-PracUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C10E8F6EB9758D54D0C0E7CB /* Pods_Wiki_Prac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wiki_Prac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3926E5979DBC44300E42B04 /* Pods_Wiki_PracUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wiki_PracUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D492C0088A283252A47FC053 /* Pods-Wiki-Prac-Wiki-PracTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wiki-Prac-Wiki-PracTests.debug.xcconfig"; path = "Target Support Files/Pods-Wiki-Prac-Wiki-PracTests/Pods-Wiki-Prac-Wiki-PracTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D57DC2596843454D49E990BD /* Pods-Wiki-PracTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wiki-PracTests.release.xcconfig"; path = "Target Support Files/Pods-Wiki-PracTests/Pods-Wiki-PracTests.release.xcconfig"; sourceTree = "<group>"; };
 		DFB04B68350957D4D467E44E /* Pods-Wiki-Prac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wiki-Prac.debug.xcconfig"; path = "Target Support Files/Pods-Wiki-Prac/Pods-Wiki-Prac.debug.xcconfig"; sourceTree = "<group>"; };
 		EB83CE68442A90BA51E1885C /* Pods-Wiki-PracTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wiki-PracTests.debug.xcconfig"; path = "Target Support Files/Pods-Wiki-PracTests/Pods-Wiki-PracTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -104,6 +116,10 @@
 				D57DC2596843454D49E990BD /* Pods-Wiki-PracTests.release.xcconfig */,
 				A6F1FC55FF81AC79AA745186 /* Pods-Wiki-PracUITests.debug.xcconfig */,
 				3CEA7BBFFA710FA1249DE2E0 /* Pods-Wiki-PracUITests.release.xcconfig */,
+				D492C0088A283252A47FC053 /* Pods-Wiki-Prac-Wiki-PracTests.debug.xcconfig */,
+				92D238A84B1481B73F9CF723 /* Pods-Wiki-Prac-Wiki-PracTests.release.xcconfig */,
+				B92C010EC838650C98E4771F /* Pods-Wiki-Prac-Wiki-PracUITests.debug.xcconfig */,
+				11ACB49A6CD2EF18EB1B4962 /* Pods-Wiki-Prac-Wiki-PracUITests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -142,6 +158,8 @@
 				B2F0148522ABEAEB00FAD900 /* WikipediaSearchViewModel.swift */,
 				B2F0148722ABEB7500FAD900 /* WikipediaSearchResponse.swift */,
 				B2F0148922ABF0A100FAD900 /* WikipediaAPI.swift */,
+				B2F0148F22ACF24D00FAD900 /* MockWikipediaAPI.swift */,
+				B2F0148B22ACE7A400FAD900 /* ObservableType+ex.swift */,
 			);
 			path = "Wiki-Prac";
 			sourceTree = "<group>";
@@ -150,6 +168,8 @@
 			isa = PBXGroup;
 			children = (
 				B294B11A22ABE70E002EDF4F /* Wiki_PracTests.swift */,
+				B2F0148D22ACEF1E00FAD900 /* WikipediaSearchResultDecodableTests.swift */,
+				B2F0149122ACF35300FAD900 /* ViewModelTests.swift */,
 				B294B11C22ABE70E002EDF4F /* Info.plist */,
 			);
 			path = "Wiki-PracTests";
@@ -204,6 +224,7 @@
 				B294B11222ABE70E002EDF4F /* Sources */,
 				B294B11322ABE70E002EDF4F /* Frameworks */,
 				B294B11422ABE70E002EDF4F /* Resources */,
+				F5AFF834CFB2618E8F23E5C2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -223,6 +244,7 @@
 				B294B11D22ABE70E002EDF4F /* Sources */,
 				B294B11E22ABE70E002EDF4F /* Frameworks */,
 				B294B11F22ABE70E002EDF4F /* Resources */,
+				D03DA60F4EF09009FE60FB96 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -355,24 +377,32 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Wiki-Prac/Pods-Wiki-Prac-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
-				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
-				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-Wiki-Prac/Pods-Wiki-Prac-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-Wiki-Prac/Pods-Wiki-Prac-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Wiki-Prac/Pods-Wiki-Prac-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D03DA60F4EF09009FE60FB96 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wiki-PracUITests/Pods-Wiki-PracUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wiki-PracUITests/Pods-Wiki-PracUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Wiki-PracUITests/Pods-Wiki-PracUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E7EF1F550A8366314A40A7A9 /* [CP] Check Pods Manifest.lock */ = {
@@ -397,6 +427,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		F5AFF834CFB2618E8F23E5C2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wiki-PracTests/Pods-Wiki-PracTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wiki-PracTests/Pods-Wiki-PracTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Wiki-PracTests/Pods-Wiki-PracTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -407,6 +454,8 @@
 				B2F0148822ABEB7500FAD900 /* WikipediaSearchResponse.swift in Sources */,
 				B294B10622ABE70C002EDF4F /* AppDelegate.swift in Sources */,
 				B2F0148A22ABF0A100FAD900 /* WikipediaAPI.swift in Sources */,
+				B2F0148C22ACE7A400FAD900 /* ObservableType+ex.swift in Sources */,
+				B2F0149022ACF24D00FAD900 /* MockWikipediaAPI.swift in Sources */,
 				B2F0148622ABEAEB00FAD900 /* WikipediaSearchViewModel.swift in Sources */,
 				B2F0148422ABE94000FAD900 /* WikipediaSearchViewController.swift in Sources */,
 			);
@@ -416,7 +465,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2F0148E22ACEF1E00FAD900 /* WikipediaSearchResultDecodableTests.swift in Sources */,
 				B294B11B22ABE70E002EDF4F /* Wiki_PracTests.swift in Sources */,
+				B2F0149222ACF35300FAD900 /* ViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,6 +517,7 @@
 		B294B12822ABE70E002EDF4F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -514,7 +566,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -527,6 +579,7 @@
 		B294B12922ABE70E002EDF4F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -569,7 +622,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -583,6 +636,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DFB04B68350957D4D467E44E /* Pods-Wiki-Prac.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JL94BNBL3S;
@@ -603,6 +657,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 73D501FAF723905EB18E0102 /* Pods-Wiki-Prac.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JL94BNBL3S;
@@ -623,7 +678,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EB83CE68442A90BA51E1885C /* Pods-Wiki-PracTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JL94BNBL3S;
@@ -645,7 +700,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D57DC2596843454D49E990BD /* Pods-Wiki-PracTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JL94BNBL3S;
@@ -667,7 +722,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A6F1FC55FF81AC79AA745186 /* Pods-Wiki-PracUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JL94BNBL3S;
 				INFOPLIST_FILE = "Wiki-PracUITests/Info.plist";
@@ -688,7 +743,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3CEA7BBFFA710FA1249DE2E0 /* Pods-Wiki-PracUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JL94BNBL3S;
 				INFOPLIST_FILE = "Wiki-PracUITests/Info.plist";

@@ -30,6 +30,11 @@ class WikipediaSearchViewController: UIViewController {
                 cell.detailTextLabel?.text = result.url.absoluteString
         }
         .disposed(by: disposeBag)
+
+        viewModel.error.subscribe(onNext: { error in
+            if let error = error as? URLError, error.code == URLError.notConnectedToInternet {
+                print(error)
+            }
+        }).disposed(by: disposeBag)
     }
-    
 }
